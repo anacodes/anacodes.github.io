@@ -586,6 +586,28 @@ h1a:hover{
 
 
 /* start project */
+@media only screen and (min-width: 1px) {
+  .flask-container2 {  
+    width: 60%;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box3 {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius:5%;
+  }
+}
+
 @media only screen and (min-width: 750px) {
     .flask-container2 {  
       width: 50%;
