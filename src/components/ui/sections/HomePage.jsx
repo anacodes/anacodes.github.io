@@ -1,7 +1,7 @@
 "use client";
-import { IntroSection } from "./IntroSection";
-import { SocialMediaSection } from "./SocialMediaSection";
 import { ProjectsSection } from "./ProjectsSection";
+import { IntroSection } from "./IntroSection.jsx";
+import { SocialMediaSection } from "./SocialMediaSection";
 import { ExperienceSection } from "./ExperienceSection";
 import { EducationSection } from "./EducationSection";
 import { SkillsSection } from "./SkillsSection";
