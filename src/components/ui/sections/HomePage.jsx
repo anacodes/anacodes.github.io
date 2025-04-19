@@ -1,17 +1,16 @@
 "use client";
-// import { IntroSection } from "./IntroSection";
-// import { SocialMediaSection } from "./SocialMediaSection";
-// import { ProjectsSection } from "./ProjectsSection";
-// import { ExperienceSection } from "./ExperienceSection";
-// import { EducationSection } from "./EducationSection";
-// import { SkillsSection } from "./SkillsSection";
-// import Image from "next/image";
-// import photo from "../../../public/Profile.jpeg";
+import { IntroSection } from "./IntroSection";
+import { SocialMediaSection } from "./SocialMediaSection";
+import { ProjectsSection } from "./ProjectsSection";
+import { ExperienceSection } from "./ExperienceSection";
+import { EducationSection } from "./EducationSection";
+import { SkillsSection } from "./SkillsSection";
+import Image from "next/image";
+import photo from "../../../public/Profile.jpeg";
 
 export function LandingPage() {
   return (
     <>
-      Hello world !
       <div id="About" className="invisible h-16"></div>
       <div className="w-full py-0 lg:pt-28">
         <div className="container mx-auto">
